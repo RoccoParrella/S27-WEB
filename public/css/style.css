@@ -51,8 +51,8 @@ nav {
 
 .first-section {
     background-color: black;
-    min-height: 100vh;
-    padding-top: 100px;
+    min-height: 900px;
+    padding-top: 90px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -109,7 +109,7 @@ nav {
 
 .div-vermas {
     display: flex;
-    background-color: #D9D9D9;
+    background-color: #000000;
     align-items: center;
     width: 110px;
     justify-content: space-around;
@@ -126,7 +126,7 @@ nav {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 14px;
-    color: #000000;
+    color: #ffffff;
     width: 250px;
     line-height: 19px;
     margin: 0;
@@ -193,4 +193,37 @@ nav {
         transform: translateX(-50%);
     }
     
+}
+
+/* ---------------------------- */
+
+.second-section {
+    background: url(../img/medias_rosas_background.png) no-repeat center;
+    background-size: cover;
+    padding: 45px 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-section-two {
+    width: 300px;
+    height: 200px;
+    background: url(../img/medias_rosas_big.png) no-repeat center;
+    background-size: cover;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.text-second-one{
+    font-family: "Monserrat", sans-serif;
+    line-height:20px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+.text-secpnd-two{
+    font-family: "Inter", sans-serif;
 }
