@@ -198,13 +198,25 @@ nav {
 /* ---------------------------- */
 
 .second-section {
-    background: url(../img/medias_rosas_background.png) no-repeat center;
+    background: url(../img/medias_rosas_big.png) no-repeat center;
     background-size: cover;
-    padding: 45px 0 ;
+}
+
+.filter-section-two {
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 40px 0;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+}	
+
+.div-section-two {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}	
 
 .img-section-two {
     width: 300px;
@@ -218,12 +230,16 @@ nav {
 
 .text-second-one{
     font-family: "Monserrat", sans-serif;
-    line-height:20px;
-    font-size: 17px;
+    line-height:22px;
+    text-align: justify;
+    font-size: 20px;
     font-weight: bold;
     color: white;
+    width: 100%;
 }
 
-.text-secpnd-two{
+.text-second-two{
     font-family: "Inter", sans-serif;
+    width: 100%;
+    color: white;
 }
