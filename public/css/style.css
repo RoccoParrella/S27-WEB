@@ -49,6 +49,7 @@ nav {
 
 /* ------------------------------------------- */
 
+/* ------------------ Main ----------------- */
 .first-section {
     background-color: black;
     min-height: 900px;
@@ -147,7 +148,8 @@ nav {
 
 
 /* ------------------------------------ */
-/* Linea */
+
+/* ------------------ container words ----------------- */
 
 .container-words {
     display: flex;
@@ -195,7 +197,26 @@ nav {
     
 }
 
-/* ---------------------------- */
+/* -------------------------------------------------- */
+
+/* ------------------ Container snake ----------------- */
+
+.container-words-snake{
+    width: 100%;
+    overflow: hidden;
+}
+
+.container-snake {
+    display: flex;
+    width: 104%;
+    overflow: hidden;
+}
+
+.img-snake{
+    width: 100%;
+}
+
+/* ------------------ Second Section ----------------- */
 
 .second-section {
     background: url(../img/medias_rosas_big.png) no-repeat center;
