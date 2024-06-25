@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+p{
+    margin: 0;
+}
+
 body {
     min-height: 200vh;
 }
@@ -263,4 +267,254 @@ nav {
     font-family: "Inter", sans-serif;
     width: 100%;
     color: white;
+}
+
+/* ------------------ Third Section ----------------- */
+
+.third-section{
+   width: 100%; 
+   margin: 20px 0 6px;
+}
+
+.title-third-section{
+    font-family: "Monserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 4px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.div-cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sub-div-cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.card-main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1.5px 1.5px 0px 1.5px;
+    padding: 20px 0 5px;
+}
+
+.mini-card{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.img-card{
+    width: 100%;
+    height: 200px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.line-black-cards{
+    width: 100%;
+    height: 1.5px;
+    background-color: #000000;
+
+}
+
+.p-card{
+    font-family: "Syne", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+.line-black{
+    width: 100%;
+    height: 1.5px;
+    background-color: #000000;
+}
+
+.div-card-secundary{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.sub-div-card-secundary{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.card-secundary{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 5px;
+}
+
+#metalic-blue-card, #hockey-card{
+    border-color: #000000;
+    border-style: solid;
+    border-width: 0px 1.5px 0px 1.5px;
+}
+
+#neon-card, #ultra-card{
+    border-color: #000000;
+    border-style: solid;
+    border-width: 0px 1.5px 0px 0px;
+
+}
+
+.mini-card-secundary{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+/* fourth section */
+
+.fourth-section{
+    width: 100%;
+}
+
+.div-fourth-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 5px;
+    margin-bottom: 20px;
+}
+
+.cards-carrousel{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+}
+
+#img-carrousel-2{
+    padding: 0 5px;
+}
+
+.img-carrousel{
+    width: 1fr;
+    height:150px;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+}
+
+/* fifth section */
+
+.fifth-section{
+    width: 100%;
+    margin: 20px 0px 0;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-fifth-section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px 0 50px;
+    width: 80%;
+
+}
+
+.h2-idea{
+    font-family: 'Syne', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #C7FF9C;
+    margin: 0;
+}
+
+.text-idea{
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 8px 0 60px;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.div-process-idea{
+    width: 100%;
+}
+
+.line-white{
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.p-idea{
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    line-height: 26px;
+    margin: 20px 0;
+}
+
+
+/* --------- SIX SECTION --------- */
+
+.sixth-section{
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div-sixth-section{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px 0 50px;
+    width: 80%;
+}
+
+.h2-dev{
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    margin: 0;
+}
+
+.text-dev{
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 44px;
+    color: #C7FF9C;
+    margin: 8px 0 30px;
+    letter-spacing: 1px;  
+}
+
+.img-qr{
+    width: 150px;
 }
